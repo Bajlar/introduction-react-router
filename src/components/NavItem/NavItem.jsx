@@ -7,7 +7,7 @@ const NavItem = ({ item }) => {
   return (
     <nav>
       <ul>
-        <NavLink className="hover:text-orange-500" to={path}>
+        <NavLink className={({ isActive }) => isActive ? 'text-blue-600 underline' : ''} to={path}>
           {name}
         </NavLink>
       </ul>

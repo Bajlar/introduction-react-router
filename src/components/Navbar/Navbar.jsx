@@ -19,7 +19,7 @@ const Navbar = () => {
         onClick={() => setIsOpen(!isOpen)}
         className="pt-2 text-2xl md:hidden hover:cursor-pointer"
       >
-        <span>{isOpen ? <FaBars /> : <FaX /> }</span>
+        <span>{isOpen ? <FaBars /> : <FaX />}</span>
       </div>
       <div
         className={`md:flex gap-6 text-lg font-semibold ${
